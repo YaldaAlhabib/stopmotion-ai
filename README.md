@@ -1,12 +1,12 @@
-Stop-Motion Style Transfer — Thesis
-
+**Stop-Motion Style Transfer — Thesis
+**
 This repository contains the code, experiments, and results for my bachelor’s thesis “AI-driven Frame Generation for Stop Motion Effects in Video Games”.
 The goal of the project is to explore how deep learning models (CycleGAN and Pix2Pix) can be used to transform conventional animations into a stop-motion style. 
 This research is novel and can open the door for more focus in this realm of art, and tech.
 
 
-📂 Repository structure
-thesis-stopmotion-ai/
+**📂 Repository structure
+**thesis-stopmotion-ai/
 ├── index.ipynb         # Homepage for the website
 ├── _quarto.yml         # Quarto config for GitHub Pages
 ├── notebooks/          # All training/testing notebooks
@@ -22,8 +22,8 @@ thesis-stopmotion-ai/
 ├── images/             # Figures and cover image
 └── README.md           # This file
 
-🚀 How to run locally
-
+**🚀 How to run locally
+**
 Clone the repo:
 
 git clone https://github.com/YaldaAlhabib/thesis-stopmotion-ai.git
@@ -57,10 +57,11 @@ Gradio_Setup.ipynb → Simple interactive demo
 
 
 
-🙋 Acknowledgements
-
+**🙋 Acknowledgements
+**
 Based on architectures from CycleGAN and Pix2Pix
 
 Supervised by [Your Professor’s Name].
 
 Built with PyTorch, Quarto, and Jupyter.
+

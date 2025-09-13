@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/**
+
+website:
+  title: "Thesis Documentation"
+  navbar:
+    left:
+      - text: Home
+        href: index.ipynb
+      - text: Notebooks
+        menu:
+          - text: Results
+            href: notebooks/Results.ipynb
+          - text: CycleGAN (M1)
+            href: notebooks/M1_training_testing_cycleGAN.ipynb
+          - text: Pix2Pix (M2)
+            href: notebooks/M2_training_testing_pix2pix.ipynb
+          - text: Pix2Pix (M3)
+            href: notebooks/M3_training_testing_pix2pix.ipynb
+          - text: Pix2Pix (M4)
+            href: notebooks/M4_training_testing_pix2pix.ipynb
+          - text: CycleGAN (core)
+            href: notebooks/CycleGAN.ipynb
+          - text: Pix2Pix (core)
+            href: notebooks/pix2pix.ipynb
+          - text: Video creation
+            href: notebooks/video_creation.ipynb
+          - text: Gradio setup
+            href: notebooks/Gradio_Setup.ipynb
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    page-navigation: true

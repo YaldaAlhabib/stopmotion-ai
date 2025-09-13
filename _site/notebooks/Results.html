@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>results – Thesis Documentation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Thesis Documentation</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.ipynb"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-notebooks" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Notebooks</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-notebooks">    
+        <li>
+    <a class="dropdown-item" href="../notebooks/Results.html">
+ <span class="dropdown-text">Results</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/M1_training_testing_cycleGAN.html">
+ <span class="dropdown-text">CycleGAN (M1)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/M2_training_testing_pix2pix.html">
+ <span class="dropdown-text">Pix2Pix (M2)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/M3_training_testing_pix2pix.html">
+ <span class="dropdown-text">Pix2Pix (M3)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/M4_training_testing_pix2pix.html">
+ <span class="dropdown-text">Pix2Pix (M4)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/CycleGAN.html">
+ <span class="dropdown-text">CycleGAN (core)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/pix2pix.html">
+ <span class="dropdown-text">Pix2Pix (core)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/video_creation.html">
+ <span class="dropdown-text">Video creation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/Gradio_Setup.html">
+ <span class="dropdown-text">Gradio setup</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div id="1b508b4b-ff04-4c73-89bb-c7488acc09ed" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install lpips</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Collecting lpips
+  Downloading lpips-0.1.4-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: torch&gt;=0.4.0 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from lpips) (2.5.1+cu121)
+Requirement already satisfied: torchvision&gt;=0.2.1 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from lpips) (0.20.1+cu121)
+Requirement already satisfied: numpy&gt;=1.14.3 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from lpips) (2.1.2)
+Requirement already satisfied: scipy&gt;=1.0.1 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from lpips) (1.15.3)
+Requirement already satisfied: tqdm&gt;=4.28.1 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from lpips) (4.67.1)
+Requirement already satisfied: filelock in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from torch&gt;=0.4.0-&gt;lpips) (3.13.1)
+Requirement already satisfied: typing-extensions&gt;=4.8.0 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from torch&gt;=0.4.0-&gt;lpips) (4.12.2)
+Requirement already satisfied: networkx in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from torch&gt;=0.4.0-&gt;lpips) (3.3)
+Requirement already satisfied: jinja2 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from torch&gt;=0.4.0-&gt;lpips) (3.1.4)
+Requirement already satisfied: fsspec in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from torch&gt;=0.4.0-&gt;lpips) (2024.6.1)
+Requirement already satisfied: sympy==1.13.1 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from torch&gt;=0.4.0-&gt;lpips) (1.13.1)
+Requirement already satisfied: mpmath&lt;1.4,&gt;=1.1.0 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from sympy==1.13.1-&gt;torch&gt;=0.4.0-&gt;lpips) (1.3.0)
+Requirement already satisfied: pillow!=8.3.*,&gt;=5.3.0 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from torchvision&gt;=0.2.1-&gt;lpips) (11.0.0)
+Requirement already satisfied: colorama in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from tqdm&gt;=4.28.1-&gt;lpips) (0.4.6)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from jinja2-&gt;torch&gt;=0.4.0-&gt;lpips) (2.1.5)
+Downloading lpips-0.1.4-py3-none-any.whl (53 kB)
+Installing collected packages: lpips
+Successfully installed lpips-0.1.4
+Note: you may need to restart the kernel to use updated packages.</code></pre>
+</div>
+</div>
+<div id="e6db5c89-de2d-424e-9860-47d2f30a4168" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, torch</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torchvision.transforms <span class="im">as</span> T</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> lpips</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>B_dir <span class="op">=</span> <span class="vs">r"datasets/coraline_AB/valB"</span>   </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>Pred_dir <span class="op">=</span> <span class="vs">r"results/coraline_pix2pix/test_latest/images/fake_B"</span>  </span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> <span class="st">'cuda'</span> <span class="cf">if</span> torch.cuda.is_available() <span class="cf">else</span> <span class="st">'cpu'</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>loss_fn <span class="op">=</span> lpips.LPIPS(net<span class="op">=</span><span class="st">'alex'</span>).to(device).<span class="bu">eval</span>()</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>tfm <span class="op">=</span> T.Compose([</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    T.Resize((<span class="dv">512</span>,<span class="dv">512</span>)),</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    T.ToTensor(),</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    T.Normalize([<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>],[<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>])</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load(path):</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    im <span class="op">=</span> Image.<span class="bu">open</span>(path).convert(<span class="st">'RGB'</span>)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> tfm(im).unsqueeze(<span class="dv">0</span>).to(device)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>scores <span class="op">=</span> []</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fname <span class="kw">in</span> os.listdir(B_dir):</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> fname.lower().endswith((<span class="st">'.png'</span>,<span class="st">'.jpg'</span>,<span class="st">'.jpeg'</span>)):</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    gt <span class="op">=</span> load(os.path.join(B_dir, fname))</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    pred <span class="op">=</span> load(os.path.join(Pred_dir, fname))</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>        s <span class="op">=</span> loss_fn(pred, gt).item()</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    scores.append(s)</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"LPIPS mean:"</span>, <span class="bu">sum</span>(scores)<span class="op">/</span><span class="bu">len</span>(scores), <span class="st">"N="</span>, <span class="bu">len</span>(scores))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="b8f1fffb-f8b5-44f1-9c07-60fdc59f2a1e" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, torch</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torchvision.transforms <span class="im">as</span> T</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> lpips</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> structural_similarity <span class="im">as</span> ssim</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> peak_signal_noise_ratio <span class="im">as</span> psnr</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>results_dir <span class="op">=</span> <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_v3_512</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images"</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> <span class="st">'cuda'</span> <span class="cf">if</span> torch.cuda.is_available() <span class="cf">else</span> <span class="st">'cpu'</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>lpips_fn <span class="op">=</span> lpips.LPIPS(net<span class="op">=</span><span class="st">'alex'</span>).to(device).<span class="bu">eval</span>()</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>tf <span class="op">=</span> T.Compose([</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    T.Resize((<span class="dv">512</span>,<span class="dv">512</span>)),</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    T.ToTensor(),</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    T.Normalize([<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>],[<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>])</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load(path, norm<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    img <span class="op">=</span> Image.<span class="bu">open</span>(path).convert(<span class="st">'RGB'</span>)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> norm:</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> tf(img).unsqueeze(<span class="dv">0</span>).to(device)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.array(img.resize((<span class="dv">512</span>,<span class="dv">512</span>)))</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>lpips_scores, psnr_scores, ssim_scores <span class="op">=</span> [], [], []</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fname <span class="kw">in</span> os.listdir(results_dir):</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> fname.endswith(<span class="st">"_real_B.png"</span>):</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>        base <span class="op">=</span> fname.replace(<span class="st">"_real_B.png"</span>, <span class="st">""</span>)</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>        fake_path <span class="op">=</span> os.path.join(results_dir, base <span class="op">+</span> <span class="st">"_fake_B.png"</span>)</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>        real_path <span class="op">=</span> os.path.join(results_dir, fname)</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(fake_path):</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>        gt <span class="op">=</span> load(real_path)</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>        pred <span class="op">=</span> load(fake_path)</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>            d <span class="op">=</span> lpips_fn(gt, pred).item()</span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>        lpips_scores.append(d)</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>        gt_np <span class="op">=</span> load(real_path, norm<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>        pred_np <span class="op">=</span> load(fake_path, norm<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>        psnr_scores.append(psnr(gt_np, pred_np, data_range<span class="op">=</span><span class="dv">255</span>))</span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>        ssim_scores.append(ssim(gt_np, pred_np, channel_axis<span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"LPIPS mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(lpips_scores)<span class="sc">:.4f}</span><span class="ss">"</span>)</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"PSNR mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(psnr_scores)<span class="sc">:.2f}</span><span class="ss"> dB"</span>)</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"SSIM mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(ssim_scores)<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>C:\Users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/alexnet-owt-7be5be79.pth" to C:\Users\yalda/.cache\torch\hub\checkpoints\alexnet-owt-7be5be79.pth
+100%|███████████████████████████████████████████████████████████████████████████████| 233M/233M [00:44&lt;00:00, 5.52MB/s]</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Loading model from: C:\Users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages\lpips\weights\v0.1\alex.pth</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>C:\Users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages\lpips\lpips.py:107: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.load_state_dict(torch.load(model_path, map_location='cpu'), strict=False)</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>LPIPS mean: 0.0114
+PSNR mean: 41.56 dB
+SSIM mean: 0.9824</code></pre>
+</div>
+</div>
+<div id="289e9b8f-5472-4ccf-87e5-18ace317377d" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install scikit<span class="op">-</span>image</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Collecting scikit-image
+  Downloading scikit_image-0.25.2-cp310-cp310-win_amd64.whl.metadata (14 kB)
+Requirement already satisfied: numpy&gt;=1.24 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from scikit-image) (2.1.2)
+Requirement already satisfied: scipy&gt;=1.11.4 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from scikit-image) (1.15.3)
+Requirement already satisfied: networkx&gt;=3.0 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from scikit-image) (3.3)
+Requirement already satisfied: pillow&gt;=10.1 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from scikit-image) (11.0.0)
+Collecting imageio!=2.35.0,&gt;=2.33 (from scikit-image)
+  Downloading imageio-2.37.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting tifffile&gt;=2022.8.12 (from scikit-image)
+  Downloading tifffile-2025.5.10-py3-none-any.whl.metadata (31 kB)
+Requirement already satisfied: packaging&gt;=21 in c:\users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages (from scikit-image) (25.0)
+Collecting lazy-loader&gt;=0.4 (from scikit-image)
+  Downloading lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+Downloading scikit_image-0.25.2-cp310-cp310-win_amd64.whl (12.8 MB)
+   ---------------------------------------- 0.0/12.8 MB ? eta -:--:--
+    --------------------------------------- 0.3/12.8 MB ? eta -:--:--
+    --------------------------------------- 0.3/12.8 MB ? eta -:--:--
+   --- ------------------------------------ 1.0/12.8 MB 1.5 MB/s eta 0:00:08
+   ---- ----------------------------------- 1.3/12.8 MB 1.7 MB/s eta 0:00:07
+   ---- ----------------------------------- 1.3/12.8 MB 1.7 MB/s eta 0:00:07
+   ---- ----------------------------------- 1.3/12.8 MB 1.7 MB/s eta 0:00:07
+   ---- ----------------------------------- 1.3/12.8 MB 1.7 MB/s eta 0:00:07
+   ---- ----------------------------------- 1.3/12.8 MB 1.7 MB/s eta 0:00:07
+   ---- ----------------------------------- 1.6/12.8 MB 814.1 kB/s eta 0:00:14
+   ----- ---------------------------------- 1.8/12.8 MB 792.4 kB/s eta 0:00:14
+   -------- ------------------------------- 2.6/12.8 MB 1.1 MB/s eta 0:00:10
+   ----------- ---------------------------- 3.7/12.8 MB 1.4 MB/s eta 0:00:07
+   ------------- -------------------------- 4.2/12.8 MB 1.5 MB/s eta 0:00:06
+   ------------- -------------------------- 4.5/12.8 MB 1.5 MB/s eta 0:00:06
+   --------------- ------------------------ 5.0/12.8 MB 1.6 MB/s eta 0:00:05
+   ---------------- ----------------------- 5.2/12.8 MB 1.6 MB/s eta 0:00:05
+   ----------------- ---------------------- 5.5/12.8 MB 1.6 MB/s eta 0:00:05
+   ------------------- -------------------- 6.3/12.8 MB 1.7 MB/s eta 0:00:04
+   --------------------- ------------------ 6.8/12.8 MB 1.7 MB/s eta 0:00:04
+   ----------------------- ---------------- 7.6/12.8 MB 1.8 MB/s eta 0:00:03
+   --------------------------- ------------ 8.7/12.8 MB 1.9 MB/s eta 0:00:03
+   ------------------------------- -------- 10.0/12.8 MB 2.1 MB/s eta 0:00:02
+   --------------------------------- ------ 10.7/12.8 MB 2.2 MB/s eta 0:00:01
+   -------------------------------------- - 12.3/12.8 MB 2.4 MB/s eta 0:00:01
+   ---------------------------------------- 12.8/12.8 MB 2.4 MB/s eta 0:00:00
+Downloading imageio-2.37.0-py3-none-any.whl (315 kB)
+Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+Downloading tifffile-2025.5.10-py3-none-any.whl (226 kB)
+Installing collected packages: tifffile, lazy-loader, imageio, scikit-image
+
+   ---------------------------------------- 0/4 [tifffile]
+   -------------------- ------------------- 2/4 [imageio]
+   -------------------- ------------------- 2/4 [imageio]
+   -------------------- ------------------- 2/4 [imageio]
+   -------------------- ------------------- 2/4 [imageio]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ------------------------------ --------- 3/4 [scikit-image]
+   ---------------------------------------- 4/4 [scikit-image]
+
+Successfully installed imageio-2.37.0 lazy-loader-0.4 scikit-image-0.25.2 tifffile-2025.5.10</code></pre>
+</div>
+</div>
+<div id="29221b7e-6cb9-40f1-b466-90e5a0086975" class="cell" data-execution_count="4">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, cv2, numpy <span class="im">as</span> np</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image, ImageOps, ImageFilter, ImageEnhance</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>A_DIR <span class="op">=</span> <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Tpose Coraline Stylle</span><span class="er">\</span><span class="vs">electrocute normal_resized"</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>B_DIR <span class="op">=</span> A_DIR.replace(<span class="st">"trainA"</span>, <span class="st">"trainB"</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>os.makedirs(B_DIR, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>VALA_DIR <span class="op">=</span> A_DIR.replace(<span class="vs">r"</span><span class="ch">\t</span><span class="vs">rainA"</span>, <span class="vs">r"</span><span class="ch">\v</span><span class="vs">alA"</span>)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>VALB_DIR <span class="op">=</span> VALA_DIR.replace(<span class="st">"valA"</span>, <span class="st">"valB"</span>)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> os.path.isdir(VALA_DIR):</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    os.makedirs(VALB_DIR, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>BILATERAL_PASSES <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>BILATERAL_D      <span class="op">=</span> <span class="dv">7</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>BILATERAL_SIGC   <span class="op">=</span> <span class="dv">60</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>BILATERAL_SIGS   <span class="op">=</span> <span class="dv">60</span></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>POSTERIZE_BITS   <span class="op">=</span> <span class="dv">4</span>   </span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>GAMMA            <span class="op">=</span> <span class="fl">0.9</span>  </span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>CONTRAST_GAIN    <span class="op">=</span> <span class="fl">1.25</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>SAT_GAIN         <span class="op">=</span> <span class="fl">1.15</span></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>BRIGHT_GAIN      <span class="op">=</span> <span class="fl">1.03</span></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>UNSHARP_RADIUS   <span class="op">=</span> <span class="fl">1.6</span></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>UNSHARP_AMOUNT   <span class="op">=</span> <span class="dv">190</span>   </span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>UNSHARP_THRESH   <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>JITTER_PIX       <span class="op">=</span> <span class="dv">1</span>     </span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>USE_TEXTURE      <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>TEX_PATH         <span class="op">=</span> <span class="va">None</span>  </span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>TEX_OPACITY      <span class="op">=</span> <span class="fl">0.02</span>   </span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>TEX_SCALE        <span class="op">=</span> <span class="fl">1.0</span></span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>PREVIEW_N        <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> cv_to_pil(img_bgr):</span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> Image.fromarray(cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB))</span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> pil_to_cv(img_pil):</span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cv2.cvtColor(np.array(img_pil), cv2.COLOR_RGB2BGR)</span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> edge_preserve_smooth(img_bgr):</span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a>    out <span class="op">=</span> img_bgr.copy()</span>
+<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(BILATERAL_PASSES):</span>
+<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> cv2.bilateralFilter(out, BILATERAL_D, BILATERAL_SIGC, BILATERAL_SIGS)</span>
+<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> out</span>
+<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> apply_gamma(img_bgr, gamma<span class="op">=</span><span class="fl">0.95</span>):</span>
+<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">abs</span>(gamma <span class="op">-</span> <span class="fl">1.0</span>) <span class="op">&lt;</span> <span class="fl">1e-3</span>:</span>
+<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> img_bgr</span>
+<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a>    inv <span class="op">=</span> <span class="fl">1.0</span> <span class="op">/</span> <span class="bu">max</span>(gamma, <span class="fl">1e-6</span>)</span>
+<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a>    lut <span class="op">=</span> np.array([(i<span class="op">/</span><span class="fl">255.0</span>)<span class="op">**</span>inv <span class="op">*</span> <span class="dv">255</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">256</span>)]).clip(<span class="dv">0</span>,<span class="dv">255</span>).astype(np.uint8)</span>
+<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cv2.LUT(img_bgr, lut)</span>
+<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tiny_jitter(img_bgr, max_shift<span class="op">=</span><span class="dv">1</span>):</span>
+<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> max_shift <span class="op">&lt;=</span> <span class="dv">0</span>:</span>
+<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> img_bgr</span>
+<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a>    tx <span class="op">=</span> np.random.randint(<span class="op">-</span>max_shift, max_shift<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a>    ty <span class="op">=</span> np.random.randint(<span class="op">-</span>max_shift, max_shift<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> tx <span class="op">==</span> <span class="dv">0</span> <span class="kw">and</span> ty <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> img_bgr</span>
+<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a>    M <span class="op">=</span> np.float32([[<span class="dv">1</span>,<span class="dv">0</span>,tx],[<span class="dv">0</span>,<span class="dv">1</span>,ty]])</span>
+<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cv2.warpAffine(img_bgr, M, (img_bgr.shape[<span class="dv">1</span>], img_bgr.shape[<span class="dv">0</span>]), borderMode<span class="op">=</span>cv2.BORDER_REPLICATE)</span>
+<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> add_micro_texture(img_bgr):</span>
+<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> USE_TEXTURE:</span>
+<span id="cb12-70"><a href="#cb12-70" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> img_bgr</span>
+<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a>    h, w <span class="op">=</span> img_bgr.shape[:<span class="dv">2</span>]</span>
+<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> TEX_PATH <span class="kw">and</span> os.path.exists(TEX_PATH):</span>
+<span id="cb12-74"><a href="#cb12-74" aria-hidden="true" tabindex="-1"></a>        tex <span class="op">=</span> cv2.imread(TEX_PATH, cv2.IMREAD_GRAYSCALE)</span>
+<span id="cb12-75"><a href="#cb12-75" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> tex <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb12-76"><a href="#cb12-76" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> img_bgr</span>
+<span id="cb12-77"><a href="#cb12-77" aria-hidden="true" tabindex="-1"></a>        th <span class="op">=</span> <span class="bu">int</span>(h <span class="op">*</span> TEX_SCALE)<span class="op">;</span> tw <span class="op">=</span> <span class="bu">int</span>(w <span class="op">*</span> TEX_SCALE)</span>
+<span id="cb12-78"><a href="#cb12-78" aria-hidden="true" tabindex="-1"></a>        tex <span class="op">=</span> cv2.resize(tex, (tw, th), interpolation<span class="op">=</span>cv2.INTER_LINEAR)</span>
+<span id="cb12-79"><a href="#cb12-79" aria-hidden="true" tabindex="-1"></a>        rep_y <span class="op">=</span> <span class="bu">int</span>(np.ceil(h <span class="op">/</span> th))<span class="op">;</span> rep_x <span class="op">=</span> <span class="bu">int</span>(np.ceil(w <span class="op">/</span> tw))</span>
+<span id="cb12-80"><a href="#cb12-80" aria-hidden="true" tabindex="-1"></a>        tex <span class="op">=</span> np.tile(tex, (rep_y, rep_x))[:h,:w]</span>
+<span id="cb12-81"><a href="#cb12-81" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb12-82"><a href="#cb12-82" aria-hidden="true" tabindex="-1"></a>        y, x <span class="op">=</span> np.mgrid[<span class="dv">0</span>:h,<span class="dv">0</span>:w]</span>
+<span id="cb12-83"><a href="#cb12-83" aria-hidden="true" tabindex="-1"></a>        tex <span class="op">=</span> (<span class="dv">7</span><span class="op">*</span>np.random.randn(h,w) <span class="op">+</span> <span class="dv">6</span><span class="op">*</span>np.sin(x<span class="op">/</span><span class="fl">19.0</span>) <span class="op">+</span> <span class="dv">6</span><span class="op">*</span>np.cos(y<span class="op">/</span><span class="fl">27.0</span>)).astype(np.float32)</span>
+<span id="cb12-84"><a href="#cb12-84" aria-hidden="true" tabindex="-1"></a>        tex <span class="op">=</span> cv2.GaussianBlur(tex, (<span class="dv">0</span>,<span class="dv">0</span>), <span class="fl">0.9</span>)</span>
+<span id="cb12-85"><a href="#cb12-85" aria-hidden="true" tabindex="-1"></a>        tex <span class="op">=</span> np.clip(((tex <span class="op">-</span> tex.<span class="bu">min</span>())<span class="op">/</span>(tex.<span class="bu">max</span>()<span class="op">-</span>tex.<span class="bu">min</span>()))<span class="op">*</span><span class="fl">255.0</span>, <span class="dv">0</span>, <span class="dv">255</span>).astype(np.uint8)</span>
+<span id="cb12-86"><a href="#cb12-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-87"><a href="#cb12-87" aria-hidden="true" tabindex="-1"></a>    tex <span class="op">=</span> tex.astype(np.float32)<span class="op">/</span><span class="fl">255.0</span> <span class="op">-</span> <span class="fl">0.5</span></span>
+<span id="cb12-88"><a href="#cb12-88" aria-hidden="true" tabindex="-1"></a>    base <span class="op">=</span> img_bgr.astype(np.float32)<span class="op">/</span><span class="fl">255.0</span></span>
+<span id="cb12-89"><a href="#cb12-89" aria-hidden="true" tabindex="-1"></a>    out <span class="op">=</span> np.clip(base <span class="op">+</span> TEX_OPACITY<span class="op">*</span>tex[...,<span class="va">None</span>], <span class="dv">0</span>, <span class="dv">1</span>)</span>
+<span id="cb12-90"><a href="#cb12-90" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (out<span class="op">*</span><span class="dv">255</span>).astype(np.uint8)</span>
+<span id="cb12-91"><a href="#cb12-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-92"><a href="#cb12-92" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stylize(img_bgr):</span>
+<span id="cb12-93"><a href="#cb12-93" aria-hidden="true" tabindex="-1"></a>    sm <span class="op">=</span> edge_preserve_smooth(img_bgr)</span>
+<span id="cb12-94"><a href="#cb12-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-95"><a href="#cb12-95" aria-hidden="true" tabindex="-1"></a>    sm <span class="op">=</span> apply_gamma(sm, GAMMA)</span>
+<span id="cb12-96"><a href="#cb12-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-97"><a href="#cb12-97" aria-hidden="true" tabindex="-1"></a>    pil <span class="op">=</span> cv_to_pil(sm)</span>
+<span id="cb12-98"><a href="#cb12-98" aria-hidden="true" tabindex="-1"></a>    pil <span class="op">=</span> ImageEnhance.Brightness(pil).enhance(BRIGHT_GAIN)</span>
+<span id="cb12-99"><a href="#cb12-99" aria-hidden="true" tabindex="-1"></a>    pil <span class="op">=</span> ImageEnhance.Contrast(pil).enhance(CONTRAST_GAIN)</span>
+<span id="cb12-100"><a href="#cb12-100" aria-hidden="true" tabindex="-1"></a>    pil <span class="op">=</span> ImageEnhance.Color(pil).enhance(SAT_GAIN)</span>
+<span id="cb12-101"><a href="#cb12-101" aria-hidden="true" tabindex="-1"></a>    pil <span class="op">=</span> ImageOps.posterize(pil, bits<span class="op">=</span>POSTERIZE_BITS)</span>
+<span id="cb12-102"><a href="#cb12-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-103"><a href="#cb12-103" aria-hidden="true" tabindex="-1"></a>    pil <span class="op">=</span> pil.<span class="bu">filter</span>(ImageFilter.UnsharpMask(radius<span class="op">=</span>UNSHARP_RADIUS, percent<span class="op">=</span>UNSHARP_AMOUNT, threshold<span class="op">=</span>UNSHARP_THRESH))</span>
+<span id="cb12-104"><a href="#cb12-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-105"><a href="#cb12-105" aria-hidden="true" tabindex="-1"></a>    out <span class="op">=</span> pil_to_cv(pil)</span>
+<span id="cb12-106"><a href="#cb12-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-107"><a href="#cb12-107" aria-hidden="true" tabindex="-1"></a>    out <span class="op">=</span> tiny_jitter(out, JITTER_PIX)</span>
+<span id="cb12-108"><a href="#cb12-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-109"><a href="#cb12-109" aria-hidden="true" tabindex="-1"></a>    out <span class="op">=</span> add_micro_texture(out)</span>
+<span id="cb12-110"><a href="#cb12-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-111"><a href="#cb12-111" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> out</span>
+<span id="cb12-112"><a href="#cb12-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-113"><a href="#cb12-113" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_dir(src, dst, preview_n<span class="op">=</span><span class="dv">0</span>):</span>
+<span id="cb12-114"><a href="#cb12-114" aria-hidden="true" tabindex="-1"></a>    os.makedirs(dst, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-115"><a href="#cb12-115" aria-hidden="true" tabindex="-1"></a>    names <span class="op">=</span> [n <span class="cf">for</span> n <span class="kw">in</span> os.listdir(src) <span class="cf">if</span> n.lower().endswith((<span class="st">".png"</span>,<span class="st">".jpg"</span>,<span class="st">".jpeg"</span>))]</span>
+<span id="cb12-116"><a href="#cb12-116" aria-hidden="true" tabindex="-1"></a>    names.sort()</span>
+<span id="cb12-117"><a href="#cb12-117" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> preview_n <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb12-118"><a href="#cb12-118" aria-hidden="true" tabindex="-1"></a>        names <span class="op">=</span> names[:preview_n]</span>
+<span id="cb12-119"><a href="#cb12-119" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"[PREVIEW] </span><span class="sc">{</span><span class="bu">len</span>(names)<span class="sc">}</span><span class="ss"> images from </span><span class="sc">{</span>src<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb12-120"><a href="#cb12-120" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb12-121"><a href="#cb12-121" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Processing </span><span class="sc">{</span><span class="bu">len</span>(names)<span class="sc">}</span><span class="ss"> images from </span><span class="sc">{</span>src<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb12-122"><a href="#cb12-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-123"><a href="#cb12-123" aria-hidden="true" tabindex="-1"></a>    count <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb12-124"><a href="#cb12-124" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> fn <span class="kw">in</span> names:</span>
+<span id="cb12-125"><a href="#cb12-125" aria-hidden="true" tabindex="-1"></a>        p <span class="op">=</span> os.path.join(src, fn)</span>
+<span id="cb12-126"><a href="#cb12-126" aria-hidden="true" tabindex="-1"></a>        img <span class="op">=</span> cv2.imread(p, cv2.IMREAD_COLOR)</span>
+<span id="cb12-127"><a href="#cb12-127" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> img <span class="kw">is</span> <span class="va">None</span>: </span>
+<span id="cb12-128"><a href="#cb12-128" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb12-129"><a href="#cb12-129" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> stylize(img)</span>
+<span id="cb12-130"><a href="#cb12-130" aria-hidden="true" tabindex="-1"></a>        cv2.imwrite(os.path.join(dst, fn), out)</span>
+<span id="cb12-131"><a href="#cb12-131" aria-hidden="true" tabindex="-1"></a>        count <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb12-132"><a href="#cb12-132" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> count <span class="op">%</span> <span class="dv">200</span> <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb12-133"><a href="#cb12-133" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"  -&gt; </span><span class="sc">{</span>count<span class="sc">}</span><span class="ss"> done"</span>)</span>
+<span id="cb12-134"><a href="#cb12-134" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Done: </span><span class="sc">{</span>count<span class="sc">}</span><span class="ss"> -&gt; </span><span class="sc">{</span>dst<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb12-135"><a href="#cb12-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-136"><a href="#cb12-136" aria-hidden="true" tabindex="-1"></a>process_dir(A_DIR, B_DIR, preview_n<span class="op">=</span><span class="dv">0</span>)   </span>
+<span id="cb12-137"><a href="#cb12-137" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> os.path.isdir(VALA_DIR):</span>
+<span id="cb12-138"><a href="#cb12-138" aria-hidden="true" tabindex="-1"></a>    process_dir(VALA_DIR, VALB_DIR, preview_n<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Processing 150 images from C:\Users\yalda\OneDrive\Desktop\Tpose Coraline Stylle\electrocute normal_resized
+Done: 150 -&gt; C:\Users\yalda\OneDrive\Desktop\Tpose Coraline Stylle\electrocute normal_resized
+Processing 150 images from C:\Users\yalda\OneDrive\Desktop\Tpose Coraline Stylle\electrocute normal_resized
+Done: 127 -&gt; C:\Users\yalda\OneDrive\Desktop\Tpose Coraline Stylle\electrocute normal_resized</code></pre>
+</div>
+</div>
+<div id="040cda83-4687-4c60-965f-54633a43f3e2" class="cell" data-execution_count="5">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, torch</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torchvision.transforms <span class="im">as</span> T</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> lpips</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> structural_similarity <span class="im">as</span> ssim</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> peak_signal_noise_ratio <span class="im">as</span> psnr</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>results_dir <span class="op">=</span> <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50_v2</span><span class="ch">\t</span><span class="vs">est_45</span><span class="er">\</span><span class="vs">images"</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> <span class="st">'cuda'</span> <span class="cf">if</span> torch.cuda.is_available() <span class="cf">else</span> <span class="st">'cpu'</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>lpips_fn <span class="op">=</span> lpips.LPIPS(net<span class="op">=</span><span class="st">'alex'</span>).to(device).<span class="bu">eval</span>()</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>tf <span class="op">=</span> T.Compose([</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    T.Resize((<span class="dv">512</span>,<span class="dv">512</span>)),</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    T.ToTensor(),</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>    T.Normalize([<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>],[<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>])</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load(path, norm<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    img <span class="op">=</span> Image.<span class="bu">open</span>(path).convert(<span class="st">'RGB'</span>)</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> norm:</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> tf(img).unsqueeze(<span class="dv">0</span>).to(device)</span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.array(img.resize((<span class="dv">512</span>,<span class="dv">512</span>)))  </span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>lpips_scores, psnr_scores, ssim_scores <span class="op">=</span> [], [], []</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fname <span class="kw">in</span> os.listdir(results_dir):</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> fname.endswith(<span class="st">"_real_B.png"</span>):</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>        base <span class="op">=</span> fname.replace(<span class="st">"_real_B.png"</span>, <span class="st">""</span>)</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>        fake_path <span class="op">=</span> os.path.join(results_dir, base <span class="op">+</span> <span class="st">"_fake_B.png"</span>)</span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>        real_path <span class="op">=</span> os.path.join(results_dir, fname)</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(fake_path):</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a>        gt <span class="op">=</span> load(real_path)</span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>        pred <span class="op">=</span> load(fake_path)</span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>            d <span class="op">=</span> lpips_fn(gt, pred).item()</span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>        lpips_scores.append(d)</span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a>        gt_np <span class="op">=</span> load(real_path, norm<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>        pred_np <span class="op">=</span> load(fake_path, norm<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a>        psnr_scores.append(psnr(gt_np, pred_np, data_range<span class="op">=</span><span class="dv">255</span>))</span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a>        ssim_scores.append(ssim(gt_np, pred_np, channel_axis<span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"LPIPS mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(lpips_scores)<span class="sc">:.4f}</span><span class="ss">"</span>)</span>
+<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"PSNR mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(psnr_scores)<span class="sc">:.2f}</span><span class="ss"> dB"</span>)</span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"SSIM mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(ssim_scores)<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: C:\Users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages\lpips\weights\v0.1\alex.pth
+LPIPS mean: 0.1881
+PSNR mean: 22.77 dB
+SSIM mean: 0.8676</code></pre>
+</div>
+</div>
+<div id="61413053-057e-4a87-a6aa-a0f7f000f3f3" class="cell" data-execution_count="7">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, torch</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torchvision.transforms <span class="im">as</span> T</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> lpips</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> structural_similarity <span class="im">as</span> ssim</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> peak_signal_noise_ratio <span class="im">as</span> psnr</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>results_dir <span class="op">=</span> <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50</span><span class="ch">\t</span><span class="vs">est_50</span><span class="er">\</span><span class="vs">images"</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> <span class="st">'cuda'</span> <span class="cf">if</span> torch.cuda.is_available() <span class="cf">else</span> <span class="st">'cpu'</span></span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>lpips_fn <span class="op">=</span> lpips.LPIPS(net<span class="op">=</span><span class="st">'alex'</span>).to(device).<span class="bu">eval</span>()</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>tf <span class="op">=</span> T.Compose([</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>    T.Resize((<span class="dv">512</span>,<span class="dv">512</span>)),</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    T.ToTensor(),</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>    T.Normalize([<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>],[<span class="fl">.5</span>,<span class="fl">.5</span>,<span class="fl">.5</span>])</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load(path, norm<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>    img <span class="op">=</span> Image.<span class="bu">open</span>(path).convert(<span class="st">'RGB'</span>)</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> norm:</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> tf(img).unsqueeze(<span class="dv">0</span>).to(device)</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.array(img.resize((<span class="dv">512</span>,<span class="dv">512</span>)))</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>lpips_scores, psnr_scores, ssim_scores <span class="op">=</span> [], [], []</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fname <span class="kw">in</span> os.listdir(results_dir):</span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> fname.endswith(<span class="st">"_real_B.png"</span>):</span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>        base <span class="op">=</span> fname.replace(<span class="st">"_real_B.png"</span>, <span class="st">""</span>)</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>        fake_path <span class="op">=</span> os.path.join(results_dir, base <span class="op">+</span> <span class="st">"_fake_B.png"</span>)</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>        real_path <span class="op">=</span> os.path.join(results_dir, fname)</span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(fake_path):</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a>        gt <span class="op">=</span> load(real_path)</span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a>        pred <span class="op">=</span> load(fake_path)</span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a>            d <span class="op">=</span> lpips_fn(gt, pred).item()</span>
+<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a>        lpips_scores.append(d)</span>
+<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a>        gt_np <span class="op">=</span> load(real_path, norm<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a>        pred_np <span class="op">=</span> load(fake_path, norm<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>        psnr_scores.append(psnr(gt_np, pred_np, data_range<span class="op">=</span><span class="dv">255</span>))</span>
+<span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a>        ssim_scores.append(ssim(gt_np, pred_np, channel_axis<span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"LPIPS mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(lpips_scores)<span class="sc">:.4f}</span><span class="ss">"</span>)</span>
+<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"PSNR mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(psnr_scores)<span class="sc">:.2f}</span><span class="ss"> dB"</span>)</span>
+<span id="cb16-53"><a href="#cb16-53" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"SSIM mean: </span><span class="sc">{</span>np<span class="sc">.</span>mean(ssim_scores)<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: C:\Users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages\lpips\weights\v0.1\alex.pth
+LPIPS mean: 0.2630
+PSNR mean: 22.02 dB
+SSIM mean: 0.8162</code></pre>
+</div>
+</div>
+<div id="1f96a75f-ec77-4904-9b68-1854a86b8443" class="cell" data-execution_count="8">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, re, numpy <span class="im">as</span> np</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch, lpips</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> structural_similarity <span class="im">as</span> ssim</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage.metrics <span class="im">import</span> peak_signal_noise_ratio <span class="im">as</span> psnr</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>results_dir <span class="op">=</span> Path(<span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="dv">\s</span><span class="vs">topmotion_cyclegan</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images"</span>)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>pat <span class="op">=</span> re.<span class="bu">compile</span>(<span class="vs">r"</span><span class="dv">^</span><span class="kw">(</span><span class="dv">.</span><span class="op">*</span><span class="kw">)</span><span class="vs">_</span><span class="kw">(</span><span class="vs">real_A</span><span class="cf">|</span><span class="vs">real_B</span><span class="cf">|</span><span class="vs">fake_A</span><span class="cf">|</span><span class="vs">fake_B</span><span class="cf">|</span><span class="vs">rec_A</span><span class="cf">|</span><span class="vs">rec_B</span><span class="kw">)</span><span class="ch">\.</span><span class="kw">(</span><span class="vs">png</span><span class="cf">|</span><span class="vs">jpg</span><span class="cf">|</span><span class="vs">jpeg</span><span class="kw">)</span><span class="dv">$</span><span class="vs">"</span>, re.IGNORECASE)</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>by_base <span class="op">=</span> {}</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> f <span class="kw">in</span> os.listdir(results_dir):</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    m <span class="op">=</span> pat.match(f)</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> m: </span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>    base, suf, _ <span class="op">=</span> m.groups()</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>    by_base.setdefault(base, {})[suf] <span class="op">=</span> <span class="bu">str</span>(results_dir <span class="op">/</span> f)</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_rgb(path, size<span class="op">=</span>(<span class="dv">512</span>,<span class="dv">512</span>)):</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>    im <span class="op">=</span> Image.<span class="bu">open</span>(path).convert(<span class="st">"RGB"</span>).resize(size, Image.BILINEAR)</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> im</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> to_lpips_tensor(im):</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>    arr <span class="op">=</span> np.asarray(im).astype(np.float32) <span class="op">/</span> <span class="fl">255.0</span></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>    arr <span class="op">=</span> arr <span class="op">*</span> <span class="dv">2</span> <span class="op">-</span> <span class="dv">1</span>  </span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> torch.from_numpy(arr).permute(<span class="dv">2</span>,<span class="dv">0</span>,<span class="dv">1</span>).unsqueeze(<span class="dv">0</span>)</span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> t</span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a>loss_fn <span class="op">=</span> lpips.LPIPS(net<span class="op">=</span><span class="st">'alex'</span>).<span class="bu">eval</span>()</span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a>lpips_A2B, lpips_B2A <span class="op">=</span> [], []</span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a>psnr_recA, ssim_recA <span class="op">=</span> [], []</span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>psnr_recB, ssim_recB <span class="op">=</span> [], []</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> base, files <span class="kw">in</span> by_base.items():</span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"real_A"</span> <span class="kw">in</span> files <span class="kw">and</span> <span class="st">"fake_B"</span> <span class="kw">in</span> files:</span>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a>        real_A <span class="op">=</span> load_rgb(files[<span class="st">"real_A"</span>])</span>
+<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a>        fake_B <span class="op">=</span> load_rgb(files[<span class="st">"fake_B"</span>])</span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a>            d <span class="op">=</span> loss_fn(to_lpips_tensor(real_A), to_lpips_tensor(fake_B)).item()</span>
+<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a>        lpips_A2B.append(d)</span>
+<span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"real_B"</span> <span class="kw">in</span> files <span class="kw">and</span> <span class="st">"fake_A"</span> <span class="kw">in</span> files:</span>
+<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a>        real_B <span class="op">=</span> load_rgb(files[<span class="st">"real_B"</span>])</span>
+<span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a>        fake_A <span class="op">=</span> load_rgb(files[<span class="st">"fake_A"</span>])</span>
+<span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a>            d <span class="op">=</span> loss_fn(to_lpips_tensor(real_B), to_lpips_tensor(fake_A)).item()</span>
+<span id="cb18-48"><a href="#cb18-48" aria-hidden="true" tabindex="-1"></a>        lpips_B2A.append(d)</span>
+<span id="cb18-49"><a href="#cb18-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-50"><a href="#cb18-50" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"real_A"</span> <span class="kw">in</span> files <span class="kw">and</span> <span class="st">"rec_A"</span> <span class="kw">in</span> files:</span>
+<span id="cb18-51"><a href="#cb18-51" aria-hidden="true" tabindex="-1"></a>        gt <span class="op">=</span> np.array(load_rgb(files[<span class="st">"real_A"</span>]))</span>
+<span id="cb18-52"><a href="#cb18-52" aria-hidden="true" tabindex="-1"></a>        rc <span class="op">=</span> np.array(load_rgb(files[<span class="st">"rec_A"</span>]))</span>
+<span id="cb18-53"><a href="#cb18-53" aria-hidden="true" tabindex="-1"></a>        psnr_recA.append(psnr(gt, rc, data_range<span class="op">=</span><span class="dv">255</span>))</span>
+<span id="cb18-54"><a href="#cb18-54" aria-hidden="true" tabindex="-1"></a>        ssim_recA.append(ssim(gt, rc, channel_axis<span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb18-55"><a href="#cb18-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"real_B"</span> <span class="kw">in</span> files <span class="kw">and</span> <span class="st">"rec_B"</span> <span class="kw">in</span> files:</span>
+<span id="cb18-56"><a href="#cb18-56" aria-hidden="true" tabindex="-1"></a>        gt <span class="op">=</span> np.array(load_rgb(files[<span class="st">"real_B"</span>]))</span>
+<span id="cb18-57"><a href="#cb18-57" aria-hidden="true" tabindex="-1"></a>        rc <span class="op">=</span> np.array(load_rgb(files[<span class="st">"rec_B"</span>]))</span>
+<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a>        psnr_recB.append(psnr(gt, rc, data_range<span class="op">=</span><span class="dv">255</span>))</span>
+<span id="cb18-59"><a href="#cb18-59" aria-hidden="true" tabindex="-1"></a>        ssim_recB.append(ssim(gt, rc, channel_axis<span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb18-60"><a href="#cb18-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-61"><a href="#cb18-61" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> meanstd(x):</span>
+<span id="cb18-62"><a href="#cb18-62" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (<span class="bu">float</span>(np.mean(x)), <span class="bu">float</span>(np.std(x)), <span class="bu">len</span>(x)) <span class="cf">if</span> x <span class="cf">else</span> (<span class="va">None</span>, <span class="va">None</span>, <span class="dv">0</span>)</span>
+<span id="cb18-63"><a href="#cb18-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-64"><a href="#cb18-64" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"==== CycleGAN (Unpaired) Metrics ===="</span>)</span>
+<span id="cb18-65"><a href="#cb18-65" aria-hidden="true" tabindex="-1"></a>m, s, n <span class="op">=</span> meanstd(lpips_A2B)</span>
+<span id="cb18-66"><a href="#cb18-66" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"LPIPS(real_A, fake_B)  [A→B style shift]: </span><span class="sc">{</span>m<span class="sc">:.4f}</span><span class="ss"> ± </span><span class="sc">{</span>s<span class="sc">:.4f}</span><span class="ss"> (N=</span><span class="sc">{</span>n<span class="sc">}</span><span class="ss">)"</span> <span class="cf">if</span> n <span class="cf">else</span> <span class="st">"No A→B pairs found."</span>)</span>
+<span id="cb18-67"><a href="#cb18-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-68"><a href="#cb18-68" aria-hidden="true" tabindex="-1"></a>m, s, n <span class="op">=</span> meanstd(lpips_B2A)</span>
+<span id="cb18-69"><a href="#cb18-69" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"LPIPS(real_B, fake_A)  [B→A style shift]: </span><span class="sc">{</span>m<span class="sc">:.4f}</span><span class="ss"> ± </span><span class="sc">{</span>s<span class="sc">:.4f}</span><span class="ss"> (N=</span><span class="sc">{</span>n<span class="sc">}</span><span class="ss">)"</span> <span class="cf">if</span> n <span class="cf">else</span> <span class="st">"No B→A pairs found."</span>)</span>
+<span id="cb18-70"><a href="#cb18-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-71"><a href="#cb18-71" aria-hidden="true" tabindex="-1"></a>m, s, n <span class="op">=</span> meanstd(psnr_recA)</span>
+<span id="cb18-72"><a href="#cb18-72" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"PSNR(real_A, rec_A)    [cycle consistency]: </span><span class="sc">{</span>m<span class="sc">:.2f}</span><span class="ss"> ± </span><span class="sc">{</span>s<span class="sc">:.2f}</span><span class="ss"> dB (N=</span><span class="sc">{</span>n<span class="sc">}</span><span class="ss">)"</span> <span class="cf">if</span> n <span class="cf">else</span> <span class="st">"No rec_A found for PSNR."</span>)</span>
+<span id="cb18-73"><a href="#cb18-73" aria-hidden="true" tabindex="-1"></a>m, s, n <span class="op">=</span> meanstd(ssim_recA)</span>
+<span id="cb18-74"><a href="#cb18-74" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"SSIM(real_A, rec_A)    [cycle consistency]: </span><span class="sc">{</span>m<span class="sc">:.4f}</span><span class="ss"> ± </span><span class="sc">{</span>s<span class="sc">:.4f}</span><span class="ss"> (N=</span><span class="sc">{</span>n<span class="sc">}</span><span class="ss">)"</span> <span class="cf">if</span> n <span class="cf">else</span> <span class="st">"No rec_A found for SSIM."</span>)</span>
+<span id="cb18-75"><a href="#cb18-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-76"><a href="#cb18-76" aria-hidden="true" tabindex="-1"></a>m, s, n <span class="op">=</span> meanstd(psnr_recB)</span>
+<span id="cb18-77"><a href="#cb18-77" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"PSNR(real_B, rec_B)    [cycle consistency]: </span><span class="sc">{</span>m<span class="sc">:.2f}</span><span class="ss"> ± </span><span class="sc">{</span>s<span class="sc">:.2f}</span><span class="ss"> dB (N=</span><span class="sc">{</span>n<span class="sc">}</span><span class="ss">)"</span> <span class="cf">if</span> n <span class="cf">else</span> <span class="st">"No rec_B found for PSNR."</span>)</span>
+<span id="cb18-78"><a href="#cb18-78" aria-hidden="true" tabindex="-1"></a>m, s, n <span class="op">=</span> meanstd(ssim_recB)</span>
+<span id="cb18-79"><a href="#cb18-79" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"SSIM(real_B, rec_B)    [cycle consistency]: </span><span class="sc">{</span>m<span class="sc">:.4f}</span><span class="ss"> ± </span><span class="sc">{</span>s<span class="sc">:.4f}</span><span class="ss"> (N=</span><span class="sc">{</span>n<span class="sc">}</span><span class="ss">)"</span> <span class="cf">if</span> n <span class="cf">else</span> <span class="st">"No rec_B found for SSIM."</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: C:\Users\yalda\anaconda3\envs\cyclegan_env\lib\site-packages\lpips\weights\v0.1\alex.pth
+==== CycleGAN (Unpaired) Metrics ====
+LPIPS(real_A, fake_B)  [A→B style shift]: 0.0379 ± 0.0035 (N=55)
+LPIPS(real_B, fake_A)  [B→A style shift]: 0.0159 ± 0.0021 (N=55)
+PSNR(real_A, rec_A)    [cycle consistency]: 34.83 ± 2.82 dB (N=55)
+SSIM(real_A, rec_A)    [cycle consistency]: 0.9829 ± 0.0016 (N=55)
+PSNR(real_B, rec_B)    [cycle consistency]: 32.14 ± 2.20 dB (N=55)
+SSIM(real_B, rec_B)    [cycle consistency]: 0.9745 ± 0.0022 (N=55)</code></pre>
+</div>
+</div>
+<div id="f14de961-d4db-4131-9b87-2d152e74958c" class="cell" data-execution_count="14">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, glob</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># ========== CONFIG ==========</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>MODELS <span class="op">=</span> [</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">"name"</span>: <span class="st">"M4 – Pix2Pix (best, 512)"</span>,</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">"type"</span>: <span class="st">"pix2pix"</span>,</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">"results_dir"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_v3_512</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images"</span>,</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>        <span class="st">"samples"</span>: <span class="dv">6</span>,</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">"name"</span>: <span class="st">"M3 – Pix2Pix (filtered B v2)"</span>,</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>        <span class="st">"type"</span>: <span class="st">"pix2pix"</span>,</span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>        <span class="st">"results_dir"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50_v2</span><span class="ch">\t</span><span class="vs">est_45</span><span class="er">\</span><span class="vs">images"</span>,</span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">"samples"</span>: <span class="dv">6</span>,</span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a>        <span class="st">"name"</span>: <span class="st">"M2 – Pix2Pix (filtered B v1)"</span>,</span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a>        <span class="st">"type"</span>: <span class="st">"pix2pix"</span>,</span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a>        <span class="st">"results_dir"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50</span><span class="ch">\t</span><span class="vs">est_50</span><span class="er">\</span><span class="vs">images"</span>,</span>
+<span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a>        <span class="st">"samples"</span>: <span class="dv">6</span>,</span>
+<span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb20-27"><a href="#cb20-27" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb20-28"><a href="#cb20-28" aria-hidden="true" tabindex="-1"></a>        <span class="st">"name"</span>: <span class="st">"M1 – CycleGAN (unpaired)"</span>,</span>
+<span id="cb20-29"><a href="#cb20-29" aria-hidden="true" tabindex="-1"></a>        <span class="st">"type"</span>: <span class="st">"cyclegan"</span>,</span>
+<span id="cb20-30"><a href="#cb20-30" aria-hidden="true" tabindex="-1"></a>        <span class="st">"results_dir"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="dv">\s</span><span class="vs">topmotion_cyclegan</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images"</span>,</span>
+<span id="cb20-31"><a href="#cb20-31" aria-hidden="true" tabindex="-1"></a>        <span class="st">"samples"</span>: <span class="dv">4</span>,</span>
+<span id="cb20-32"><a href="#cb20-32" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb20-33"><a href="#cb20-33" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb20-34"><a href="#cb20-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-35"><a href="#cb20-35" aria-hidden="true" tabindex="-1"></a>OUT_DIR <span class="op">=</span> Path(<span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="ch">\t</span><span class="vs">hesis_figs"</span>)</span>
+<span id="cb20-36"><a href="#cb20-36" aria-hidden="true" tabindex="-1"></a>OUT_DIR.mkdir(parents<span class="op">=</span><span class="va">True</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb20-37"><a href="#cb20-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-38"><a href="#cb20-38" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> imread(path):</span>
+<span id="cb20-39"><a href="#cb20-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.array(Image.<span class="bu">open</span>(path).convert(<span class="st">"RGB"</span>))</span>
+<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> _with_any_ext(folder, stem):</span>
+<span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Return Path if a file with this stem exists with .png or .jpg (case-insensitive)."""</span></span>
+<span id="cb20-43"><a href="#cb20-43" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> ext <span class="kw">in</span> (<span class="st">".png"</span>, <span class="st">".jpg"</span>, <span class="st">".jpeg"</span>, <span class="st">".PNG"</span>, <span class="st">".JPG"</span>, <span class="st">".JPEG"</span>):</span>
+<span id="cb20-44"><a href="#cb20-44" aria-hidden="true" tabindex="-1"></a>        p <span class="op">=</span> folder <span class="op">/</span> <span class="ss">f"</span><span class="sc">{</span>stem<span class="sc">}{</span>ext<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb20-45"><a href="#cb20-45" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> p.exists():</span>
+<span id="cb20-46"><a href="#cb20-46" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> p</span>
+<span id="cb20-47"><a href="#cb20-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb20-48"><a href="#cb20-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-49"><a href="#cb20-49" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> collect_pix2pix_triplets(img_dir):</span>
+<span id="cb20-50"><a href="#cb20-50" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Find *_real_A.*, and pair with *_real_B.* and *_fake_B.* (any ext)."""</span></span>
+<span id="cb20-51"><a href="#cb20-51" aria-hidden="true" tabindex="-1"></a>    d <span class="op">=</span> Path(img_dir)</span>
+<span id="cb20-52"><a href="#cb20-52" aria-hidden="true" tabindex="-1"></a>    real_A_files <span class="op">=</span> <span class="bu">sorted</span>(<span class="bu">list</span>(d.glob(<span class="st">"*_real_A.*"</span>)))</span>
+<span id="cb20-53"><a href="#cb20-53" aria-hidden="true" tabindex="-1"></a>    triplets <span class="op">=</span> []</span>
+<span id="cb20-54"><a href="#cb20-54" aria-hidden="true" tabindex="-1"></a>    missing_rb, missing_fb <span class="op">=</span> <span class="dv">0</span>, <span class="dv">0</span></span>
+<span id="cb20-55"><a href="#cb20-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-56"><a href="#cb20-56" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> ra <span class="kw">in</span> real_A_files:</span>
+<span id="cb20-57"><a href="#cb20-57" aria-hidden="true" tabindex="-1"></a>        key <span class="op">=</span> ra.name</span>
+<span id="cb20-58"><a href="#cb20-58" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> tag <span class="kw">in</span> [<span class="st">"_real_A.png"</span>,<span class="st">"_real_A.jpg"</span>,<span class="st">"_real_A.jpeg"</span>,</span>
+<span id="cb20-59"><a href="#cb20-59" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"_real_A.PNG"</span>,<span class="st">"_real_A.JPG"</span>,<span class="st">"_real_A.JPEG"</span>]:</span>
+<span id="cb20-60"><a href="#cb20-60" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> key.endswith(tag):</span>
+<span id="cb20-61"><a href="#cb20-61" aria-hidden="true" tabindex="-1"></a>                key <span class="op">=</span> key[: <span class="op">-</span><span class="bu">len</span>(tag)]</span>
+<span id="cb20-62"><a href="#cb20-62" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb20-63"><a href="#cb20-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-64"><a href="#cb20-64" aria-hidden="true" tabindex="-1"></a>        rb <span class="op">=</span> _with_any_ext(d, <span class="ss">f"</span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">_real_B"</span>)</span>
+<span id="cb20-65"><a href="#cb20-65" aria-hidden="true" tabindex="-1"></a>        fb <span class="op">=</span> _with_any_ext(d, <span class="ss">f"</span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">_fake_B"</span>)</span>
+<span id="cb20-66"><a href="#cb20-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-67"><a href="#cb20-67" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> rb <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb20-68"><a href="#cb20-68" aria-hidden="true" tabindex="-1"></a>            missing_rb <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb20-69"><a href="#cb20-69" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> fb <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb20-70"><a href="#cb20-70" aria-hidden="true" tabindex="-1"></a>            missing_fb <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb20-71"><a href="#cb20-71" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> rb <span class="kw">and</span> fb:</span>
+<span id="cb20-72"><a href="#cb20-72" aria-hidden="true" tabindex="-1"></a>            triplets.append({<span class="st">"key"</span>: key, <span class="st">"real_A"</span>: ra, <span class="st">"real_B"</span>: rb, <span class="st">"fake_B"</span>: fb})</span>
+<span id="cb20-73"><a href="#cb20-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-74"><a href="#cb20-74" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"[pix2pix] in '</span><span class="sc">{</span>img_dir<span class="sc">}</span><span class="ss">': found real_A=</span><span class="sc">{</span><span class="bu">len</span>(real_A_files)<span class="sc">}</span><span class="ss">, triplets=</span><span class="sc">{</span><span class="bu">len</span>(triplets)<span class="sc">}</span><span class="ss">, "</span></span>
+<span id="cb20-75"><a href="#cb20-75" aria-hidden="true" tabindex="-1"></a>          <span class="ss">f"missing real_B for </span><span class="sc">{</span>missing_rb<span class="sc">}</span><span class="ss">, missing fake_B for </span><span class="sc">{</span>missing_fb<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb20-76"><a href="#cb20-76" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> triplets[:<span class="dv">2</span>]:</span>
+<span id="cb20-77"><a href="#cb20-77" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"  e.g.:"</span>, triplets[<span class="dv">0</span>][<span class="st">"real_A"</span>].name, <span class="st">"|"</span>, triplets[<span class="dv">0</span>][<span class="st">"real_B"</span>].name, <span class="st">"|"</span>, triplets[<span class="dv">0</span>][<span class="st">"fake_B"</span>].name)</span>
+<span id="cb20-78"><a href="#cb20-78" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> triplets</span>
+<span id="cb20-79"><a href="#cb20-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-80"><a href="#cb20-80" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> collect_cyclegan_sets(img_dir):</span>
+<span id="cb20-81"><a href="#cb20-81" aria-hidden="true" tabindex="-1"></a>    d <span class="op">=</span> Path(img_dir)</span>
+<span id="cb20-82"><a href="#cb20-82" aria-hidden="true" tabindex="-1"></a>    real_A_files <span class="op">=</span> <span class="bu">sorted</span>(<span class="bu">list</span>(d.glob(<span class="st">"*_real_A.*"</span>)))</span>
+<span id="cb20-83"><a href="#cb20-83" aria-hidden="true" tabindex="-1"></a>    sets <span class="op">=</span> []</span>
+<span id="cb20-84"><a href="#cb20-84" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> ra <span class="kw">in</span> real_A_files:</span>
+<span id="cb20-85"><a href="#cb20-85" aria-hidden="true" tabindex="-1"></a>        key <span class="op">=</span> ra.name</span>
+<span id="cb20-86"><a href="#cb20-86" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> tag <span class="kw">in</span> [<span class="st">"_real_A.png"</span>,<span class="st">"_real_A.jpg"</span>,<span class="st">"_real_A.jpeg"</span>,</span>
+<span id="cb20-87"><a href="#cb20-87" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"_real_A.PNG"</span>,<span class="st">"_real_A.JPG"</span>,<span class="st">"_real_A.JPEG"</span>]:</span>
+<span id="cb20-88"><a href="#cb20-88" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> key.endswith(tag):</span>
+<span id="cb20-89"><a href="#cb20-89" aria-hidden="true" tabindex="-1"></a>                key <span class="op">=</span> key[: <span class="op">-</span><span class="bu">len</span>(tag)]</span>
+<span id="cb20-90"><a href="#cb20-90" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb20-91"><a href="#cb20-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-92"><a href="#cb20-92" aria-hidden="true" tabindex="-1"></a>        entry <span class="op">=</span> {</span>
+<span id="cb20-93"><a href="#cb20-93" aria-hidden="true" tabindex="-1"></a>            <span class="st">"key"</span>: key,</span>
+<span id="cb20-94"><a href="#cb20-94" aria-hidden="true" tabindex="-1"></a>            <span class="st">"real_A"</span>: ra,</span>
+<span id="cb20-95"><a href="#cb20-95" aria-hidden="true" tabindex="-1"></a>            <span class="st">"fake_B"</span>: _with_any_ext(d, <span class="ss">f"</span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">_fake_B"</span>),</span>
+<span id="cb20-96"><a href="#cb20-96" aria-hidden="true" tabindex="-1"></a>            <span class="st">"rec_A"</span>:  _with_any_ext(d, <span class="ss">f"</span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">_rec_A"</span>),</span>
+<span id="cb20-97"><a href="#cb20-97" aria-hidden="true" tabindex="-1"></a>            <span class="st">"real_B"</span>: _with_any_ext(d, <span class="ss">f"</span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">_real_B"</span>),</span>
+<span id="cb20-98"><a href="#cb20-98" aria-hidden="true" tabindex="-1"></a>            <span class="st">"fake_A"</span>: _with_any_ext(d, <span class="ss">f"</span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">_fake_A"</span>),</span>
+<span id="cb20-99"><a href="#cb20-99" aria-hidden="true" tabindex="-1"></a>            <span class="st">"rec_B"</span>:  _with_any_ext(d, <span class="ss">f"</span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">_rec_B"</span>),</span>
+<span id="cb20-100"><a href="#cb20-100" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb20-101"><a href="#cb20-101" aria-hidden="true" tabindex="-1"></a>        sets.append(entry)</span>
+<span id="cb20-102"><a href="#cb20-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-103"><a href="#cb20-103" aria-hidden="true" tabindex="-1"></a>    have <span class="op">=</span> <span class="bu">sum</span>(<span class="dv">1</span> <span class="cf">for</span> s <span class="kw">in</span> sets <span class="cf">if</span> s[<span class="st">"fake_B"</span>] <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>)</span>
+<span id="cb20-104"><a href="#cb20-104" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"[cyclegan] in '</span><span class="sc">{</span>img_dir<span class="sc">}</span><span class="ss">': real_A=</span><span class="sc">{</span><span class="bu">len</span>(real_A_files)<span class="sc">}</span><span class="ss">, with fake_B available=</span><span class="sc">{</span>have<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb20-105"><a href="#cb20-105" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> sets[:<span class="dv">1</span>]:</span>
+<span id="cb20-106"><a href="#cb20-106" aria-hidden="true" tabindex="-1"></a>        s <span class="op">=</span> sets[<span class="dv">0</span>]</span>
+<span id="cb20-107"><a href="#cb20-107" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"  e.g.:"</span>, s[<span class="st">"real_A"</span>].name, <span class="st">"|"</span>, <span class="bu">getattr</span>(s[<span class="st">"fake_B"</span>], <span class="st">"name"</span>, <span class="st">"fake_B missing"</span>))</span>
+<span id="cb20-108"><a href="#cb20-108" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sets</span>
+<span id="cb20-109"><a href="#cb20-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-110"><a href="#cb20-110" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_pix2pix_panel(name, triplets, n_rows<span class="op">=</span><span class="dv">6</span>, save_to<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb20-111"><a href="#cb20-111" aria-hidden="true" tabindex="-1"></a>    n_rows <span class="op">=</span> <span class="bu">min</span>(n_rows, <span class="bu">len</span>(triplets))</span>
+<span id="cb20-112"><a href="#cb20-112" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n_rows <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb20-113"><a href="#cb20-113" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"[WARN] No pix2pix triplets to plot for </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb20-114"><a href="#cb20-114" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
+<span id="cb20-115"><a href="#cb20-115" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(n_rows, <span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">3</span><span class="op">*</span>n_rows))</span>
+<span id="cb20-116"><a href="#cb20-116" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n_rows <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb20-117"><a href="#cb20-117" aria-hidden="true" tabindex="-1"></a>        axes <span class="op">=</span> np.expand_dims(axes, <span class="dv">0</span>)</span>
+<span id="cb20-118"><a href="#cb20-118" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(n_rows):</span>
+<span id="cb20-119"><a href="#cb20-119" aria-hidden="true" tabindex="-1"></a>        t <span class="op">=</span> triplets[i]</span>
+<span id="cb20-120"><a href="#cb20-120" aria-hidden="true" tabindex="-1"></a>        imgs <span class="op">=</span> [imread(t[<span class="st">"real_A"</span>]), imread(t[<span class="st">"real_B"</span>]), imread(t[<span class="st">"fake_B"</span>])]</span>
+<span id="cb20-121"><a href="#cb20-121" aria-hidden="true" tabindex="-1"></a>        titles <span class="op">=</span> [<span class="st">"Input (A)"</span>, <span class="st">"Target (B)"</span>, <span class="st">"Output (Fake_B)"</span>]</span>
+<span id="cb20-122"><a href="#cb20-122" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> c <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>):</span>
+<span id="cb20-123"><a href="#cb20-123" aria-hidden="true" tabindex="-1"></a>            axes[i, c].imshow(imgs[c])<span class="op">;</span> axes[i, c].set_xticks([])<span class="op">;</span> axes[i, c].set_yticks([])</span>
+<span id="cb20-124"><a href="#cb20-124" aria-hidden="true" tabindex="-1"></a>            axes[i, c].set_title(titles[c], fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb20-125"><a href="#cb20-125" aria-hidden="true" tabindex="-1"></a>    fig.suptitle(name, fontsize<span class="op">=</span><span class="dv">14</span>)<span class="op">;</span> fig.tight_layout()</span>
+<span id="cb20-126"><a href="#cb20-126" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> save_to:</span>
+<span id="cb20-127"><a href="#cb20-127" aria-hidden="true" tabindex="-1"></a>        fig.savefig(save_to, dpi<span class="op">=</span><span class="dv">200</span>, bbox_inches<span class="op">=</span><span class="st">"tight"</span>)<span class="op">;</span> <span class="bu">print</span>(<span class="ss">f"[Saved] </span><span class="sc">{</span>save_to<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb20-128"><a href="#cb20-128" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb20-129"><a href="#cb20-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-130"><a href="#cb20-130" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_cyclegan_panel(name, sets, n_rows<span class="op">=</span><span class="dv">4</span>, save_to<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb20-131"><a href="#cb20-131" aria-hidden="true" tabindex="-1"></a>    valid <span class="op">=</span> [s <span class="cf">for</span> s <span class="kw">in</span> sets <span class="cf">if</span> (s[<span class="st">"real_A"</span>] <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="kw">and</span> s[<span class="st">"fake_B"</span>] <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>)]</span>
+<span id="cb20-132"><a href="#cb20-132" aria-hidden="true" tabindex="-1"></a>    n_rows <span class="op">=</span> <span class="bu">min</span>(n_rows, <span class="bu">len</span>(valid))</span>
+<span id="cb20-133"><a href="#cb20-133" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n_rows <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb20-134"><a href="#cb20-134" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"[WARN] No CycleGAN examples with fake_B to plot for </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb20-135"><a href="#cb20-135" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
+<span id="cb20-136"><a href="#cb20-136" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(n_rows, <span class="dv">6</span>, figsize<span class="op">=</span>(<span class="dv">16</span>, <span class="dv">3</span><span class="op">*</span>n_rows))</span>
+<span id="cb20-137"><a href="#cb20-137" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n_rows <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb20-138"><a href="#cb20-138" aria-hidden="true" tabindex="-1"></a>        axes <span class="op">=</span> np.expand_dims(axes, <span class="dv">0</span>)</span>
+<span id="cb20-139"><a href="#cb20-139" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(n_rows):</span>
+<span id="cb20-140"><a href="#cb20-140" aria-hidden="true" tabindex="-1"></a>        s <span class="op">=</span> valid[i]</span>
+<span id="cb20-141"><a href="#cb20-141" aria-hidden="true" tabindex="-1"></a>        panels <span class="op">=</span> [</span>
+<span id="cb20-142"><a href="#cb20-142" aria-hidden="true" tabindex="-1"></a>            (<span class="st">"A"</span>, s[<span class="st">"real_A"</span>]),</span>
+<span id="cb20-143"><a href="#cb20-143" aria-hidden="true" tabindex="-1"></a>            (<span class="st">"Fake_B"</span>, s[<span class="st">"fake_B"</span>]),</span>
+<span id="cb20-144"><a href="#cb20-144" aria-hidden="true" tabindex="-1"></a>            (<span class="st">"Rec_A"</span>, s[<span class="st">"rec_A"</span>]),</span>
+<span id="cb20-145"><a href="#cb20-145" aria-hidden="true" tabindex="-1"></a>            (<span class="st">"B"</span>, s[<span class="st">"real_B"</span>]),</span>
+<span id="cb20-146"><a href="#cb20-146" aria-hidden="true" tabindex="-1"></a>            (<span class="st">"Fake_A"</span>, s[<span class="st">"fake_A"</span>]),</span>
+<span id="cb20-147"><a href="#cb20-147" aria-hidden="true" tabindex="-1"></a>            (<span class="st">"Rec_B"</span>, s[<span class="st">"rec_B"</span>]),</span>
+<span id="cb20-148"><a href="#cb20-148" aria-hidden="true" tabindex="-1"></a>        ]</span>
+<span id="cb20-149"><a href="#cb20-149" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> c, (title, p) <span class="kw">in</span> <span class="bu">enumerate</span>(panels):</span>
+<span id="cb20-150"><a href="#cb20-150" aria-hidden="true" tabindex="-1"></a>            ax <span class="op">=</span> axes[i, c]</span>
+<span id="cb20-151"><a href="#cb20-151" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> p <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="kw">and</span> Path(p).exists():</span>
+<span id="cb20-152"><a href="#cb20-152" aria-hidden="true" tabindex="-1"></a>                ax.imshow(imread(p))</span>
+<span id="cb20-153"><a href="#cb20-153" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb20-154"><a href="#cb20-154" aria-hidden="true" tabindex="-1"></a>                ax.imshow(np.ones((<span class="dv">64</span>,<span class="dv">64</span>,<span class="dv">3</span>), dtype<span class="op">=</span>np.uint8)<span class="op">*</span><span class="dv">240</span>)<span class="op">;</span> title <span class="op">+=</span> <span class="st">" (missing)"</span></span>
+<span id="cb20-155"><a href="#cb20-155" aria-hidden="true" tabindex="-1"></a>            ax.set_xticks([])<span class="op">;</span> ax.set_yticks([])<span class="op">;</span> ax.set_title(title, fontsize<span class="op">=</span><span class="dv">9</span>)</span>
+<span id="cb20-156"><a href="#cb20-156" aria-hidden="true" tabindex="-1"></a>    fig.suptitle(name <span class="op">+</span> <span class="st">" – Qualitative Examples"</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb20-157"><a href="#cb20-157" aria-hidden="true" tabindex="-1"></a>    fig.tight_layout()</span>
+<span id="cb20-158"><a href="#cb20-158" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> save_to:</span>
+<span id="cb20-159"><a href="#cb20-159" aria-hidden="true" tabindex="-1"></a>        fig.savefig(save_to, dpi<span class="op">=</span><span class="dv">200</span>, bbox_inches<span class="op">=</span><span class="st">"tight"</span>)<span class="op">;</span> <span class="bu">print</span>(<span class="ss">f"[Saved] </span><span class="sc">{</span>save_to<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb20-160"><a href="#cb20-160" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb20-161"><a href="#cb20-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-162"><a href="#cb20-162" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> m <span class="kw">in</span> MODELS:</span>
+<span id="cb20-163"><a href="#cb20-163" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">==="</span>, m[<span class="st">"name"</span>], <span class="st">"==="</span>)</span>
+<span id="cb20-164"><a href="#cb20-164" aria-hidden="true" tabindex="-1"></a>    img_dir <span class="op">=</span> m[<span class="st">"results_dir"</span>]</span>
+<span id="cb20-165"><a href="#cb20-165" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> Path(img_dir).exists():</span>
+<span id="cb20-166"><a href="#cb20-166" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"[ERROR] results_dir does not exist: </span><span class="sc">{</span>img_dir<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb20-167"><a href="#cb20-167" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb20-168"><a href="#cb20-168" aria-hidden="true" tabindex="-1"></a>    out_path <span class="op">=</span> OUT_DIR <span class="op">/</span> (m[<span class="st">"name"</span>].replace(<span class="st">" "</span>, <span class="st">"_"</span>).replace(<span class="st">":"</span>, <span class="st">""</span>) <span class="op">+</span> <span class="st">".png"</span>)</span>
+<span id="cb20-169"><a href="#cb20-169" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> m[<span class="st">"type"</span>].lower() <span class="op">==</span> <span class="st">"pix2pix"</span>:</span>
+<span id="cb20-170"><a href="#cb20-170" aria-hidden="true" tabindex="-1"></a>        trips <span class="op">=</span> collect_pix2pix_triplets(img_dir)</span>
+<span id="cb20-171"><a href="#cb20-171" aria-hidden="true" tabindex="-1"></a>        plot_pix2pix_panel(m[<span class="st">"name"</span>], trips, n_rows<span class="op">=</span>m[<span class="st">"samples"</span>], save_to<span class="op">=</span>out_path)</span>
+<span id="cb20-172"><a href="#cb20-172" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb20-173"><a href="#cb20-173" aria-hidden="true" tabindex="-1"></a>        sets <span class="op">=</span> collect_cyclegan_sets(img_dir)</span>
+<span id="cb20-174"><a href="#cb20-174" aria-hidden="true" tabindex="-1"></a>        plot_cyclegan_panel(m[<span class="st">"name"</span>], sets, n_rows<span class="op">=</span>m[<span class="st">"samples"</span>], save_to<span class="op">=</span>out_path)</span>
+<span id="cb20-175"><a href="#cb20-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-176"><a href="#cb20-176" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">Done."</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+=== M4 – Pix2Pix (best, 512) ===
+[pix2pix] in 'C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\pytorch-CycleGAN-and-pix2pix\results\coraline_p2p_v3_512\test_latest\images': found real_A=150, triplets=150, missing real_B for 0, missing fake_B for 0
+  e.g.: Blender 4.20001_real_A.png | Blender 4.20001_real_B.png | Blender 4.20001_fake_B.png
+[Saved] C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\thesis_figs\M4_–_Pix2Pix_(best,_512).png</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-10-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+=== M3 – Pix2Pix (filtered B v2) ===
+[pix2pix] in 'C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\pytorch-CycleGAN-and-pix2pix\results\coraline_p2p_512_e50_v2\test_45\images': found real_A=150, triplets=150, missing real_B for 0, missing fake_B for 0
+  e.g.: Blender 4.20001_real_A.png | Blender 4.20001_real_B.png | Blender 4.20001_fake_B.png
+[Saved] C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\thesis_figs\M3_–_Pix2Pix_(filtered_B_v2).png</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-10-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+=== M2 – Pix2Pix (filtered B v1) ===
+[pix2pix] in 'C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\pytorch-CycleGAN-and-pix2pix\results\coraline_p2p_512_e50\test_50\images': found real_A=150, triplets=150, missing real_B for 0, missing fake_B for 0
+  e.g.: Blender 4.20001_real_A.png | Blender 4.20001_real_B.png | Blender 4.20001_fake_B.png
+[Saved] C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\thesis_figs\M2_–_Pix2Pix_(filtered_B_v1).png</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-10-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+=== M1 – CycleGAN (unpaired) ===
+[cyclegan] in 'C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\pytorch-CycleGAN-and-pix2pix\results\stopmotion_cyclegan\test_latest\images': real_A=55, with fake_B available=55
+  e.g.: reaction_20001_real_A.png | reaction_20001_fake_B.png
+[Saved] C:\Users\yalda\OneDrive\Desktop\Thesis apps\Project Folder\thesis_figs\M1_–_CycleGAN_(unpaired).png</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-10-output-8.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Done.</code></pre>
+</div>
+</div>
+<div id="2c42ab95-f501-48ae-9e64-e86b1ccde3bd" class="cell" data-execution_count="12">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>METRICS <span class="op">=</span> {</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M1 CycleGAN (A→B LPIPS)"</span>: <span class="fl">0.0379</span>,  </span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M2 Pix2Pix"</span>: {<span class="st">"LPIPS"</span>: <span class="fl">0.2630</span>, <span class="st">"PSNR"</span>: <span class="fl">22.02</span>, <span class="st">"SSIM"</span>: <span class="fl">0.8162</span>},</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M3 Pix2Pix"</span>: {<span class="st">"LPIPS"</span>: <span class="fl">0.1881</span>, <span class="st">"PSNR"</span>: <span class="fl">22.77</span>, <span class="st">"SSIM"</span>: <span class="fl">0.8676</span>},</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M4 Pix2Pix"</span>: {<span class="st">"LPIPS"</span>: <span class="fl">0.0114</span>, <span class="st">"PSNR"</span>: <span class="fl">41.56</span>, <span class="st">"SSIM"</span>: <span class="fl">0.9824</span>},</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">"M2"</span>, <span class="st">"M3"</span>, <span class="st">"M4"</span>]</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>lpips <span class="op">=</span> [METRICS[<span class="st">"M2 Pix2Pix"</span>][<span class="st">"LPIPS"</span>], METRICS[<span class="st">"M3 Pix2Pix"</span>][<span class="st">"LPIPS"</span>], METRICS[<span class="st">"M4 Pix2Pix"</span>][<span class="st">"LPIPS"</span>]]</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>psnr  <span class="op">=</span> [METRICS[<span class="st">"M2 Pix2Pix"</span>][<span class="st">"PSNR"</span>],  METRICS[<span class="st">"M3 Pix2Pix"</span>][<span class="st">"PSNR"</span>],  METRICS[<span class="st">"M4 Pix2Pix"</span>][<span class="st">"PSNR"</span>]]</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>ssim  <span class="op">=</span> [METRICS[<span class="st">"M2 Pix2Pix"</span>][<span class="st">"SSIM"</span>],  METRICS[<span class="st">"M3 Pix2Pix"</span>][<span class="st">"SSIM"</span>],  METRICS[<span class="st">"M4 Pix2Pix"</span>][<span class="st">"SSIM"</span>]]</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">3</span>))</span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].bar(labels, lpips)<span class="op">;</span> axs[<span class="dv">0</span>].set_title(<span class="st">"LPIPS ↓"</span>)<span class="op">;</span> axs[<span class="dv">0</span>].set_ylim(<span class="dv">0</span>, <span class="bu">max</span>(lpips)<span class="op">*</span><span class="fl">1.2</span>)</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].bar(labels, psnr)<span class="op">;</span>  axs[<span class="dv">1</span>].set_title(<span class="st">"PSNR ↑"</span>)</span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">2</span>].bar(labels, ssim)<span class="op">;</span>  axs[<span class="dv">2</span>].set_title(<span class="st">"SSIM ↑"</span>)<span class="op">;</span> axs[<span class="dv">2</span>].set_ylim(<span class="fl">0.7</span>, <span class="fl">1.0</span>)</span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ax <span class="kw">in</span> axs: ax.grid(axis<span class="op">=</span><span class="st">'y'</span>, linestyle<span class="op">=</span><span class="st">':'</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">"Quantitative Comparison (Pix2Pix models)"</span>)</span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-11-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="b387824c-76c1-449f-9441-1eff51ca0b94" class="cell" data-execution_count="13">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>METRICS <span class="op">=</span> {</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M1 CycleGAN"</span>: {<span class="st">"LPIPS"</span>: <span class="fl">0.0379</span>},</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M2 Pix2Pix"</span>: {<span class="st">"LPIPS"</span>: <span class="fl">0.2630</span>, <span class="st">"PSNR"</span>: <span class="fl">22.02</span>, <span class="st">"SSIM"</span>: <span class="fl">0.8162</span>},</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M3 Pix2Pix"</span>: {<span class="st">"LPIPS"</span>: <span class="fl">0.1881</span>, <span class="st">"PSNR"</span>: <span class="fl">22.77</span>, <span class="st">"SSIM"</span>: <span class="fl">0.8676</span>},</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M4 Pix2Pix"</span>: {<span class="st">"LPIPS"</span>: <span class="fl">0.0114</span>, <span class="st">"PSNR"</span>: <span class="fl">41.56</span>, <span class="st">"SSIM"</span>: <span class="fl">0.9824</span>},</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>labels_lpips <span class="op">=</span> [<span class="st">"M1"</span>, <span class="st">"M2"</span>, <span class="st">"M3"</span>, <span class="st">"M4"</span>]</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>lpips_vals   <span class="op">=</span> [</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>    METRICS[<span class="st">"M1 CycleGAN"</span>][<span class="st">"LPIPS"</span>],</span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>    METRICS[<span class="st">"M2 Pix2Pix"</span>][<span class="st">"LPIPS"</span>],</span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>    METRICS[<span class="st">"M3 Pix2Pix"</span>][<span class="st">"LPIPS"</span>],</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>    METRICS[<span class="st">"M4 Pix2Pix"</span>][<span class="st">"LPIPS"</span>],</span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> plt.bar(labels_lpips, lpips_vals, color<span class="op">=</span>[<span class="st">"gray"</span>,<span class="st">"C0"</span>,<span class="st">"C1"</span>,<span class="st">"C2"</span>])</span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"LPIPS (Lower is better)"</span>)</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Distance"</span>)</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> bar, val <span class="kw">in</span> <span class="bu">zip</span>(bars, lpips_vals):</span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>    plt.text(bar.get_x()<span class="op">+</span>bar.get_width()<span class="op">/</span><span class="dv">2</span>, bar.get_height()<span class="op">+</span><span class="fl">0.005</span>, <span class="ss">f"</span><span class="sc">{</span>val<span class="sc">:.3f}</span><span class="ss">"</span>, </span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a>             ha<span class="op">=</span><span class="st">'center'</span>, va<span class="op">=</span><span class="st">'bottom'</span>, fontsize<span class="op">=</span><span class="dv">9</span>)</span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">'y'</span>, linestyle<span class="op">=</span><span class="st">':'</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-29"><a href="#cb27-29" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">"M2"</span>, <span class="st">"M3"</span>, <span class="st">"M4"</span>]</span>
+<span id="cb27-30"><a href="#cb27-30" aria-hidden="true" tabindex="-1"></a>psnr  <span class="op">=</span> [METRICS[<span class="st">"M2 Pix2Pix"</span>][<span class="st">"PSNR"</span>],  METRICS[<span class="st">"M3 Pix2Pix"</span>][<span class="st">"PSNR"</span>],  METRICS[<span class="st">"M4 Pix2Pix"</span>][<span class="st">"PSNR"</span>]]</span>
+<span id="cb27-31"><a href="#cb27-31" aria-hidden="true" tabindex="-1"></a>ssim  <span class="op">=</span> [METRICS[<span class="st">"M2 Pix2Pix"</span>][<span class="st">"SSIM"</span>],  METRICS[<span class="st">"M3 Pix2Pix"</span>][<span class="st">"SSIM"</span>],  METRICS[<span class="st">"M4 Pix2Pix"</span>][<span class="st">"SSIM"</span>]]</span>
+<span id="cb27-32"><a href="#cb27-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-33"><a href="#cb27-33" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">3</span>))</span>
+<span id="cb27-34"><a href="#cb27-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-35"><a href="#cb27-35" aria-hidden="true" tabindex="-1"></a>bars1 <span class="op">=</span> axs[<span class="dv">0</span>].bar(labels, psnr, color<span class="op">=</span>[<span class="st">"C0"</span>,<span class="st">"C1"</span>,<span class="st">"C2"</span>])</span>
+<span id="cb27-36"><a href="#cb27-36" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].set_title(<span class="st">"PSNR ↑ (dB)"</span>)</span>
+<span id="cb27-37"><a href="#cb27-37" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> bar, val <span class="kw">in</span> <span class="bu">zip</span>(bars1, psnr):</span>
+<span id="cb27-38"><a href="#cb27-38" aria-hidden="true" tabindex="-1"></a>    axs[<span class="dv">0</span>].text(bar.get_x()<span class="op">+</span>bar.get_width()<span class="op">/</span><span class="dv">2</span>, bar.get_height()<span class="op">+</span><span class="fl">0.2</span>, <span class="ss">f"</span><span class="sc">{</span>val<span class="sc">:.2f}</span><span class="ss">"</span>, </span>
+<span id="cb27-39"><a href="#cb27-39" aria-hidden="true" tabindex="-1"></a>                ha<span class="op">=</span><span class="st">'center'</span>, va<span class="op">=</span><span class="st">'bottom'</span>, fontsize<span class="op">=</span><span class="dv">9</span>)</span>
+<span id="cb27-40"><a href="#cb27-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-41"><a href="#cb27-41" aria-hidden="true" tabindex="-1"></a>bars2 <span class="op">=</span> axs[<span class="dv">1</span>].bar(labels, ssim, color<span class="op">=</span>[<span class="st">"C0"</span>,<span class="st">"C1"</span>,<span class="st">"C2"</span>])</span>
+<span id="cb27-42"><a href="#cb27-42" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_title(<span class="st">"SSIM ↑"</span>)</span>
+<span id="cb27-43"><a href="#cb27-43" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_ylim(<span class="fl">0.7</span>, <span class="fl">1.0</span>)</span>
+<span id="cb27-44"><a href="#cb27-44" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> bar, val <span class="kw">in</span> <span class="bu">zip</span>(bars2, ssim):</span>
+<span id="cb27-45"><a href="#cb27-45" aria-hidden="true" tabindex="-1"></a>    axs[<span class="dv">1</span>].text(bar.get_x()<span class="op">+</span>bar.get_width()<span class="op">/</span><span class="dv">2</span>, bar.get_height()<span class="op">+</span><span class="fl">0.01</span>, <span class="ss">f"</span><span class="sc">{</span>val<span class="sc">:.3f}</span><span class="ss">"</span>, </span>
+<span id="cb27-46"><a href="#cb27-46" aria-hidden="true" tabindex="-1"></a>                ha<span class="op">=</span><span class="st">'center'</span>, va<span class="op">=</span><span class="st">'bottom'</span>, fontsize<span class="op">=</span><span class="dv">9</span>)</span>
+<span id="cb27-47"><a href="#cb27-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-48"><a href="#cb27-48" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ax <span class="kw">in</span> axs: ax.grid(axis<span class="op">=</span><span class="st">'y'</span>, linestyle<span class="op">=</span><span class="st">':'</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb27-49"><a href="#cb27-49" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">"Quantitative Comparison – Pix2Pix models (M2–M4)"</span>)</span>
+<span id="cb27-50"><a href="#cb27-50" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb27-51"><a href="#cb27-51" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-12-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-12-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="1f6bc1d4-e318-4bd5-b17b-0b59ee52cd7a" class="cell" data-execution_count="21">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>paths <span class="op">=</span> {</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Input (Real A)"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_v3_512</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_real_A</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M2 Pix2Pix"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50</span><span class="ch">\t</span><span class="vs">est_50</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_fake_B</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M3 Pix2Pix"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50_v2</span><span class="ch">\t</span><span class="vs">est_45</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_fake_B</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M4 Pix2Pix"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_v3_512</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_fake_B</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="bu">len</span>(paths), figsize<span class="op">=</span>(<span class="dv">18</span>, <span class="dv">5</span>))</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ax, (title, img_path) <span class="kw">in</span> <span class="bu">zip</span>(axs, paths.items()):</span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(img_path):</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>        ax.text(<span class="fl">0.5</span>, <span class="fl">0.5</span>, <span class="st">"Missing file"</span>, ha<span class="op">=</span><span class="st">"center"</span>, va<span class="op">=</span><span class="st">"center"</span>)</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>        ax.set_title(title <span class="op">+</span> <span class="st">" (not found)"</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>        ax.axis(<span class="st">"off"</span>)</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>    img <span class="op">=</span> Image.<span class="bu">open</span>(img_path)</span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>    ax.imshow(img)</span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>    ax.set_title(title, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a>    ax.axis(<span class="st">"off"</span>)</span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">"Figure 4.3.2a – Visual comparison of all pix2pix models on the same input frame"</span>, fontsize<span class="op">=</span><span class="dv">14</span>, weight<span class="op">=</span><span class="st">"bold"</span>)</span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-13-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="fa517302-3a31-43bd-b547-e240c679c1d2" class="cell" data-execution_count="22">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>paths <span class="op">=</span> {</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Input (Real A)"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_v3_512</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_real_A</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M2 Pix2Pix"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50</span><span class="ch">\t</span><span class="vs">est_50</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_fake_B</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M3 Pix2Pix"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_512_e50_v2</span><span class="ch">\t</span><span class="vs">est_45</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_fake_B</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"M4 Pix2Pix"</span>: <span class="vs">r"C:</span><span class="er">\</span><span class="vs">Users</span><span class="er">\</span><span class="vs">yalda</span><span class="er">\</span><span class="vs">OneDrive</span><span class="dv">\D</span><span class="vs">esktop</span><span class="er">\</span><span class="vs">Thesis apps</span><span class="er">\</span><span class="vs">Project Folder</span><span class="er">\</span><span class="vs">pytorch-CycleGAN-and-pix2pix</span><span class="ch">\r</span><span class="vs">esults</span><span class="er">\</span><span class="vs">coraline_p2p_v3_512</span><span class="ch">\t</span><span class="vs">est_latest</span><span class="er">\</span><span class="vs">images</span><span class="dv">\B</span><span class="vs">lender 4</span><span class="dv">.</span><span class="vs">20001_fake_B</span><span class="dv">.</span><span class="vs">png"</span>,</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">10</span>))</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ax, (title, img_path) <span class="kw">in</span> <span class="bu">zip</span>(axs.ravel(), paths.items()):</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(img_path):</span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>        ax.text(<span class="fl">0.5</span>, <span class="fl">0.5</span>, <span class="st">"Missing file"</span>, ha<span class="op">=</span><span class="st">"center"</span>, va<span class="op">=</span><span class="st">"center"</span>)</span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>        ax.set_title(title <span class="op">+</span> <span class="st">" (not found)"</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a>        ax.axis(<span class="st">"off"</span>)</span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a>    img <span class="op">=</span> Image.<span class="bu">open</span>(img_path).resize((<span class="dv">512</span>, <span class="dv">512</span>))</span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a>    ax.imshow(img)</span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a>    ax.set_title(title, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a>    ax.axis(<span class="st">"off"</span>)</span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">"Figure 4.3.2a – Visual comparison of all models on the same input frame"</span>, fontsize<span class="op">=</span><span class="dv">14</span>, weight<span class="op">=</span><span class="st">"bold"</span>)</span>
+<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb29-27"><a href="#cb29-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Results_files/figure-html/cell-14-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/YaldaAlhabib\.github\.io\/thesis-stopmotion-ai\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

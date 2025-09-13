@@ -1,5 +1,6 @@
 # Stop-Motion Style Transfer — Thesis
-This repository contains the code, experiments, and results for my bachelor’s thesis **“Stop-Motion Style Transfer in Video Games”**. The project explores how deep learning models (CycleGAN and Pix2Pix) can be used to transform conventional animations into a stop-motion style.
+This repository contains the code, experiments, and results for my bachelor’s thesis **“AI-driven Frame Generation for Stop Motion Effects in Video Games”**. The project explores how deep learning models (CycleGAN and Pix2Pix) can be used to transform conventional animations into a stop-motion style.
+
 🌐 This research is novel and can open the door for more focus in this realm of art, and tech.
 
 
@@ -25,8 +26,8 @@ thesis-stopmotion-ai/
 ## 🚀 How to run locally
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YaldaAlhabib/thesis-stopmotion-ai.git
-   cd thesis-stopmotion-ai
+   git clone https://github.com/YaldaAlhabibstopmotion-ai.git
+   cd stopmotion-ai
    ```
 2. Install dependencies (Python 3.11+ recommended):
    ```bash
@@ -54,3 +55,4 @@ thesis-stopmotion-ai/
 - Based on architectures from [CycleGAN and Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) by Jun-Yan Zhu et al.  
 - Supervised by *Prof. Milena Lazarova*.  
 - Built with PyTorch, Quarto, and Jupyter.
+
